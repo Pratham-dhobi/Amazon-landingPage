@@ -9,7 +9,7 @@
 .nav-bar {
     display: flex;
     height: 60px;
-    background-color: #0F1111;
+    background-color: #0f1111;
     color: #FFFFFF;
     align-items: center;
     justify-content: space-evenly;
@@ -45,16 +45,19 @@
 .add-text {
     color: #cccccc;
     font-size: 12px;
-    margin-left: 15px;
+    margin-left: 18px;
     margin-top: 10px;
 }
+
 .loc-icon-country {
     display: flex;
+    align-items: center;
 }
+
 .add-country {
     color: #FFFFFF;
     font-size: 14px;
-    margin-left: 3px;
+    margin-left: 6px;
     font-weight: 600;
 }
 
@@ -93,7 +96,7 @@
     color: black;
 }
 .border-yellow:active {
-    border: 3px solid rgb(225, 146, 0);
+    border: 3px solid rgb(255, 166, 49);
 }
 
 .input-search {
@@ -173,4 +176,69 @@
     margin-right: 10px;
     font-size: 14px;
     font-weight: bold;
+}
+
+.nav-bottom-panel {
+    background-color: #222f3d;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.left-nav-panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+}
+
+.right-nav-panel {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 95%;
+}
+a {
+    /* margin-left: 10px; */
+    padding: 0px 9px;
+    font-weight: 500;
+}
+.items {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    height: 36px;
+    align-items: center;
+}
+
+.panel-menu {
+    color: white;
+    margin-right: 5px;
+}
+
+/* main section */
+.main-section {
+    background-image: url('./images/main-bg.jpg');
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-section .web-info{
+    display: flex;
+    background-color: #F5F6F6;
+    width: 97%;
+    height: 40px;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+}
+
+.web-info a {
+    text-decoration: none;
+    color: #007185;
 }
