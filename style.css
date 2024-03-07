@@ -275,11 +275,71 @@ a {
 
 .box {
     background-color: #ffffff;
-    /* background-color: gray; */
-    border: 2px solid black;
     height: 420px;
     width: 23%;
-    /* display: flex;
+    display: flex;
     align-items: center;
-    justify-content: center; */
+    padding-top: 20px;
+    padding-bottom: 15px;
+    flex-direction: column;
 }
+
+.box-label {
+    color: #0f1111;
+    font-size: 21px;
+    font-weight: bold;
+    width: 90%;
+}
+
+.product1 {
+    height: 40%;
+    width: 90%;
+    margin-top: 10px;
+}
+
+.img-product1 {
+    background-image: url('./images/product1.jpg');
+    height: 90%;
+    width: 84%;
+    background-size: cover;
+    margin-left: 10%;
+}
+
+.product-name {
+    font-size: 14px;
+    margin-top: 2px;
+    color: #0F1111;
+}
+
+.product2 {
+    height: 40%;
+    width: 90%;
+    margin-top: 10px;
+}
+
+.img-product2 {
+    background-image: url('./images/product3.jpg');
+    height: 90%;
+    width: 100%;
+    background-size: cover;
+}
+
+.see-more-link {
+    height: 8%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.see-more-link a {
+   padding: 0px;
+   text-decoration: none;
+   font-size: 14px;
+   color: #007185;
+}
+
+.see-more-link a:hover {
+    text-decoration: underline solid  rgb(211, 56, 0);
+    color: rgb(211, 56, 0);
+ }
