@@ -272,13 +272,13 @@ a {
     margin-bottom: -100px;
 }
 
-.container2 {
+.container1 {
     background-color: #e3e6e6;
-    height: 1000px;
+    height: 135px;
 }
 
 .box {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     height: 420px;
     width: 23%;
     display: flex;
@@ -404,3 +404,34 @@ a {
     background-size: cover;
     background-position-x: -60px;
  }
+
+ .container2 {
+    background-color: #e3e6e6;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .horizontal-scroll-view {
+    background-color: white;
+    width: 95.5%;
+    height: 285px;
+    margin-top: 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+ }
+
+.horizontal-scroll-view::-webkit-scrollbar {
+    background: transparent;
+}
+
+.horizontal-scroll-view::-webkit-scrollbar-thumb {
+    background: #222f3d;
+    border-radius: 100px;
+}
+
+.footer {
+    background-color: black;
+    height: 100px;
+}
