@@ -412,23 +412,45 @@ a {
     justify-content: center;
  }
 
- .horizontal-scroll-view {
+ .horizontal-scroll-view-container {
     background-color: white;
-    width: 95.5%;
-    height: 285px;
+    width: 93.7%;
+    height: 270px;
     margin-top: 20px;
-    overflow-x: auto;
     white-space: nowrap;
-    padding: 10px;
+    padding: 20px;
  }
 
+ .horizontal-scroll-view {
+    background-color: white;
+    width: 100%;
+    height: 255px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    overflow-y: hidden;
+ }
 .horizontal-scroll-view::-webkit-scrollbar {
     background: transparent;
 }
 
 .horizontal-scroll-view::-webkit-scrollbar-thumb {
-    background: #222f3d;
-    border-radius: 100px;
+    background: #007185;
+    height: 10px;
+}
+
+.book-img {
+    height: 210px;
+    width: 150px;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 10px
+}
+
+.book-txt{
+    font-size: 21px;
+    font-weight: bold;
 }
 
 .footer {
