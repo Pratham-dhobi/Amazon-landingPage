@@ -429,21 +429,32 @@ a {
     white-space: nowrap;
     overflow-y: hidden;
  }
+
 .horizontal-scroll-view::-webkit-scrollbar {
     background: transparent;
 }
 
 .horizontal-scroll-view::-webkit-scrollbar-thumb {
-    background: #007185;
-    height: 10px;
+    background-color: transparent;
 }
 
+.horizontal-scroll-view:hover::-webkit-scrollbar-thumb {
+    background-color: #007185;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+}
 .book-img {
     height: 210px;
     width: 150px;
 }
+/* 
+.book-img:hover {
+    cursor: pointer;
+} */
 
-table{
+.book-table{
     border-collapse: separate;
     border-spacing: 10px
 }
@@ -455,5 +466,108 @@ table{
 
 .footer {
     background-color: black;
-    height: 100px;
+    height: 1010px;
+}
+
+.footer1 {
+    background-color: #37475a;
+    color: #FFFFFF;
+    font-size: 14px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer1:hover {
+    background-color: #4d545e;
+}
+
+.footer2 {
+    height: 320px;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-head {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 6px 0px 14px;
+}
+
+.footer2 ul {
+    list-style: none;
+    font-size: 14px;
+}
+.footer2 ul a{
+    color: #DDDDDD;
+    text-decoration: none;
+    padding: 0px 0px 10px;
+}
+.footer2 ul li {
+    margin: 0px 0px 10px;
+    color: #DDDDDD;
+}
+.footer2 ul a:hover {
+    text-decoration: underline solid #DDDDDD;
+}
+
+.footerAccessibility {
+    padding: 0px 10px;
+    height: 260px;
+}
+
+.footer-space-col {
+    width: 80px;
+}
+
+.footer3 {
+    background-color: #131a22;
+    height: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-link-table {
+    border-collapse: collapse;
+}
+.footer-link-table tr td a{
+    text-decoration: none;
+    color: #DDDDDD;
+    font-size: 13px;
+    padding: 0px;
+}
+
+.footer-link-table tr td a:hover {
+    text-decoration: underline solid #FFFFFF;
+}
+
+.footer-link-table tr td a:hover span{
+    text-decoration: underline solid #999999;
+}
+
+.footer-link-table tr td a span {
+    color: #999999;
+    font-size: 12px;
+}
+
+.footer-link-table tr td {
+    vertical-align: top;
+}
+.data-content {
+    width: 115px;
+    padding: 0px 10px;
+}
+
+.space-cell {
+    width: 10px;
+    padding: 0px 10px;
+}
+
+.row-space {
+    height: 15px;
+    padding: 0px 10px;
 }
