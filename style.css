@@ -314,6 +314,8 @@ a {
     font-size: 14px;
     margin-top: 2px;
     color: #0F1111;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .product2 {
@@ -358,6 +360,10 @@ a {
     display: flex;
     justify-content: center;
     flex-direction: column;
+ }
+
+ .product:hover {
+    cursor: pointer;
  }
 
  .img-product5 {
@@ -449,10 +455,10 @@ a {
     height: 210px;
     width: 150px;
 }
-/* 
+
 .book-img:hover {
     cursor: pointer;
-} */
+}
 
 .book-table{
     border-collapse: separate;
@@ -466,7 +472,7 @@ a {
 
 .footer {
     background-color: black;
-    height: 1010px;
+    height: 910px;
 }
 
 .footer1 {
@@ -480,7 +486,8 @@ a {
 }
 
 .footer1:hover {
-    background-color: #4d545e;
+    background-color: #667897a6;
+    cursor: pointer;
 }
 
 .footer2 {
@@ -570,4 +577,41 @@ a {
 .row-space {
     height: 15px;
     padding: 0px 10px;
+}
+
+.footer4 {
+    background-color: #131a22;
+    height: 40px;
+    padding: 10px 0px 30px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer4 ul li a{
+    text-decoration: none;
+    color: #DDDDDD;
+    padding: 0px 7.2px;
+}
+.footer4 ul li a:hover {
+    text-decoration: underline solid #DDDDDD;
+}
+.footer4 ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px 18px;
+}
+.footer4 ul li {
+    list-style: none;
+}
+
+.footer4 span {
+    color: #DDDDDD;
+    padding: 0px 7.2px;
+}
+
+.privacy-img {
+    width: 30px;
+    height: 16px;
+    vertical-align: bottom;
 }
